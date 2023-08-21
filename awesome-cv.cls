@@ -89,6 +89,9 @@
   pdfkeywords={}
 }
 
+% Modify the size of the paragraphs
+\RequirePackage{changepage}
+
 
 %-------------------------------------------------------------------------------
 %                Configuration for directory locations
@@ -672,11 +675,13 @@
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
   \begin{justify}
+    \begin{adjustwidth}{0cm}{0.3\textwidth}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
     \setlength{\parskip}{0pt}
     \renewcommand{\labelitemi}{\bullet}
 }{%
   \end{itemize}
+  \end{adjustwidth}
   \end{justify}
   \vspace{-4.0mm}
 }
