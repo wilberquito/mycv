@@ -683,7 +683,7 @@
 \newenvironment{cvitems}{%
   \vspace{-4.0mm}
   \begin{justify}
-    \begin{adjustwidth}{0cm}{0.30\textwidth}
+    \begin{adjustwidth}{0cm}{0.25\textwidth}
   \begin{itemize}[leftmargin=2ex, nosep, noitemsep]
      \setlength{\itemsep}{5pt}
       \setlength{\parskip}{0pt}
