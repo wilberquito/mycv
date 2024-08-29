@@ -1,4 +1,5 @@
-photos/
+photos/*.png
+photos/*.jpg
 
 *:Zone.Identifier
 ## Core latex/pdflatex auxiliary files:
