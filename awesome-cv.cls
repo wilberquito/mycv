@@ -207,9 +207,9 @@
 
 % For elements of entry
 \newcommand*{\entrytitlestyle}[1]{{\fontsize{11pt}{1em}\bodyfont\bfseries\color{darktext} #1}}
-\newcommand*{\entrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\itshape\color{darktext} #1}}
+\newcommand*{\entrypositionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\upshape\color{darktext} #1}}
 \newcommand*{\entrydatestyle}[1]{{\fontsize{8pt}{1em}\bodyfont\itshape\color{darktext} #1}}
-\newcommand*{\entrylocationstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{darktext} #1}}
+\newcommand*{\entrylocationstyle}[1]{{\fontsize{8pt}{1em}\bodyfont\upshape\color{darktext} #1}}
 \newcommand*{\descriptionstyle}[1]{{\fontsize{9pt}{1em}\bodyfont\upshape\color{text} #1}}
 
 % For elements of subentry
@@ -221,7 +221,7 @@
 
 
 % For references
-\newcommand*{\referencestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\scshape\color{text} #1}}
+\newcommand*{\referencestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\upshape\color{darktext} #1}}
 
 % For elements of honor
 \newcommand*{\honortitlestyle}[1]{{\fontsize{9pt}{1em}\bodyfont\color{darktext} #1}}
